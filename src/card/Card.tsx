@@ -35,6 +35,20 @@ const Card = () => {
       : { title: '', description: '' };
   };
 
+  const formatName = (name: string) => {
+    const words = name.split(' ');
+    if (words.length > 1) {
+      return (
+        <>
+          {words[0]}
+          <br />
+          {words.slice(1).join(' ')}
+        </>
+      );
+    }
+    return name;
+  };
+
   const { title, description } = getSelectedContent();
 
   return (
@@ -47,7 +61,11 @@ const Card = () => {
             onClick={() => toggleSelection(frame.name)}
           >
             <img src={frame.svgPath} alt={frame.name} className="size-6" />
-            <div className="mt-2 text-sm text-gray-500">{frame.name}</div>
+            <div
+              className={`mt-2 text-sm font-semibold text-gray-600 ${selected[frame.name] ? 'text-gray-700' : 'bg-transparent'}`}
+            >
+              {formatName(frame.name)}
+            </div>
             <div
               className={`mt-4 h-1 w-full ${selected[frame.name] ? 'bg-orange-500' : 'bg-transparent'}`}
             ></div>
