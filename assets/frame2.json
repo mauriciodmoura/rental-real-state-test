@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Alugar Imóvel",
+    "title": "Alugue sem complicação",
+    "description": "Alugue imóveis qualificados e sem repitição. Sed ut perspiciatis unde omnis iste natus error sit.",
+    "svgPath": "/assets/images/alugar.svg"
+  },
+  {
+    "name": "Comprar Imóvel",
+    "title": "Compre o imóvel dos seus sonhos",
+    "description": "Aquele lugar que você sempre sonhou.",
+    "svgPath": "/assets/images/comprar.svg"
+  },
+  {
+    "name": "Anunciar Imóvel",
+    "title": "Venda rápido",
+    "description": "Aqui colocou, vendeu.",
+    "svgPath": "/assets/images/vender.svg"
+  }
+]

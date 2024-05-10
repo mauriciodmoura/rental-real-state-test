@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Pega Sol",
+    "title": "Sol que ilumina as suas manhãs",
+    "description": "Busque imóveis que pegam Sol durante a manhã para que você fique com a vitamina D em dia ;)",
+    "svgPath": "/assets/images/pega-sol.svg"
+  },
+  {
+    "name": "Aceitam Pet",
+    "title": "Viva com seu melhor amigo",
+    "description": "Busque imóveis que você possa conviver com o seu amado cachorro ou gato.",
+    "svgPath": "/assets/images/aceitam-pet.svg"
+  },
+  {
+    "name": "Ônibus Perto",
+    "title": "Comodidade",
+    "description": "Busque comodidade de ter conexões de ônibus perto de casa.",
+    "svgPath": "/assets/images/onibus-perto.svg"
+  }
+]
+
