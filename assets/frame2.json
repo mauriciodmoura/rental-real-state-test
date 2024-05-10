@@ -8,13 +8,13 @@
   {
     "name": "Comprar Imóvel",
     "title": "Compre o imóvel dos seus sonhos",
-    "description": "Aquele lugar que você sempre sonhou.",
+    "description": "Aquele lugar que você sempre sonhou. Sed ut perspiciatis unde omnis iste natus error sit.",
     "svgPath": "/assets/images/comprar.svg"
   },
   {
     "name": "Anunciar Imóvel",
     "title": "Venda rápido",
-    "description": "Aqui colocou, vendeu.",
+    "description": "Aqui colocou, vendeu. Sed ut perspiciatis unde omnis iste natus error sit.",
     "svgPath": "/assets/images/vender.svg"
   }
 ]
