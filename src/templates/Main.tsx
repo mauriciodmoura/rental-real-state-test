@@ -1,8 +1,7 @@
-import Card from '../card/Card';
-import FeatureCard from '../card/FeatureCard';
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
 import { PortugalBanner } from './Banner';
+import { Card } from './Card';
 import { Carousel } from './Carousel';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
@@ -13,9 +12,8 @@ const Main = () => (
       <Meta title={AppConfig.title} description={AppConfig.description} />
       <Hero />
       <Carousel />
-      <PortugalBanner />
-      <FeatureCard />
       <Card />
+      <PortugalBanner />
     </div>
     <Footer />
   </div>
