@@ -1,5 +1,6 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
+import AdvertiseBanner from './AdvertiseBanner';
 import { PortugalBanner } from './Banner';
 import { Card } from './Card';
 import { CardImage } from './CardImage';
@@ -15,6 +16,7 @@ const Main = () => (
       <Carousel />
       <Card />
       <CardImage />
+      <AdvertiseBanner />
       <PortugalBanner />
     </div>
     <Footer />
