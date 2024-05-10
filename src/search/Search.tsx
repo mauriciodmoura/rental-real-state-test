@@ -100,13 +100,13 @@ const Search = () => {
               fill="#A2A7AA"
             />
           </svg>
-          <span className="ml-2 mt-2 text-sm font-extrabold text-gray-700">
+          <span className="ml-2 mt-2 text-xs font-extrabold text-gray-700">
             Localização
           </span>
         </div>
         <input
           placeholder="Qual é a Localização?"
-          className="-pl-14 mr-4 w-full bg-transparent outline-none placeholder:text-gray-500"
+          className="-pl-14 mr-4 w-full bg-transparent text-sm outline-none placeholder:text-gray-500"
           type="text"
           name="location"
           id="location"
@@ -192,14 +192,14 @@ const Search = () => {
               fill="#A2A7AA"
             />
           </svg>
-          <span className="ml-2 mt-2 text-sm font-extrabold text-gray-700">
+          <span className="ml-2 mt-2 text-xs font-extrabold text-gray-700">
             Nº de Quartos
           </span>
         </div>
         <input
           ref={inputRef}
           placeholder="Quantos Quartos?"
-          className="-pl-14 mr-4 w-full bg-transparent outline-none placeholder:text-gray-500"
+          className="-pl-14 mr-4 w-full bg-transparent text-sm outline-none placeholder:text-gray-500"
           type="text"
           name="bedrooms"
           id="bedrooms"
